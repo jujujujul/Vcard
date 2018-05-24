@@ -1,1 +1,80 @@
+body{
+    background: black;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+}
 
+
+.toolbartop{
+    width: 100vw;
+    height: 150px;
+    align-items: center;
+}
+
+.listbutton{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 50px 0;
+}
+
+.listbutton img{
+    height: 70px;
+    margin:5px 5px 0px 5px;
+}
+
+nav li{
+    border-left: 1px dotted;
+}
+
+#button3{
+    border-right: 1px dotted;
+}
+
+.titletop{
+    
+    background-color: #F9E0F1;
+    height: 50px;
+    color: antiquewhite;
+    text-align: center;
+    align-items: center;
+}
+
+h1{
+    color: black;
+}
+
+section{
+    margin: 90px;
+    text-align: center;
+    font-size: 20px;
+}
+
+p{
+    border-left: 1px dotted;
+    border-right: 1px dotted;
+}
+
+.adress{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    height: 100px;
+}
+
+#star1{
+    color: palevioletred;
+}
+
+#star2{
+    color:aquamarine;
+}
+
+#star3{
+    color:cornflowerblue;
+}
+
+ul{
+    list-style-type: none;
+}
